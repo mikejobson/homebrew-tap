@@ -3,7 +3,7 @@ class CrestronSetup < Formula
   homepage "https://github.com/mikejobson/Crestron-Processor-Setup"
   url "https://github.com/mikejobson/Crestron-Processor-Setup/releases/download/v0.1.0/crestron-setup-macos"
   version "0.1.0"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "03f583df945a13330b719c6aff3ea24b0be4d69801339ecdfe72c88496eaf59c"
 
   def install
     bin.install "crestron-setup-macos" => "crestron-setup"
