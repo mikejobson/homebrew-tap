@@ -1,9 +1,9 @@
 class CrestronSetup < Formula
   desc "CLI tool for automated Crestron processor provisioning"
   homepage "https://github.com/mikejobson/Crestron-Processor-Setup"
-  url "https://github.com/mikejobson/Crestron-Processor-Setup/releases/download/v1.1.1/crestron-setup-macos"
-  version "1.1.1"
-  sha256 "35c8b66cb9c84609f8228300b7c6f5aa98db507f8a9e552a40f1c7caeb747642"
+  url "https://github.com/mikejobson/Crestron-Processor-Setup/releases/download/v1.1.2/crestron-setup-macos"
+  version "1.1.2"
+  sha256 "292a9498944d842eceaa17d5576738493ccad978098036b7b6c25d7c072b2cf0"
 
   def install
     bin.install "crestron-setup-macos" => "crestron-setup"
